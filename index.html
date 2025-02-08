@@ -21,6 +21,8 @@ http://www.tooplate.com/view/2109-the-card
     <link rel="stylesheet" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/tooplate-style.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Templatemo style -->
   </head>
 
@@ -54,11 +56,6 @@ http://www.tooplate.com/view/2109-the-card
             <li class="tm-nav-item">
               <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Contact</a>
             </li>
-            <li class="tm-nav-item">
-              <a
-                rel="nofollow" href="https://fb.com/tooplate"
-                class="tm-nav-link external">External</a>
-            </li>
           </ul>
         </nav>
 
@@ -66,6 +63,9 @@ http://www.tooplate.com/view/2109-the-card
         <header class="tm-site-header-box tm-bg-dark">
           <h1 class="tm-site-title">Beatriz Diaz</h1>
           <p class="mb-0 tm-site-subtitle">Account Project Manager & Product Owner | Data Management, Change Management</p>
+                              <!-- Add icon library -->
+                              <a href="mailto:beatrizdiazrz@gmail.com" class="fa fa-envelope fa-fw w3-margin-right"></a>
+                              <a href="https://www.linkedin.com/in/abeatriz-diaz" target="_blank" class="fa fa-linkedin fa-fw w3-margin-right"></a>
         </header>
       </div>
       <!-- tm-top-container -->
@@ -82,11 +82,7 @@ http://www.tooplate.com/view/2109-the-card
                 </h2>
                 <div class="tm-textbox tm-bg-dark">
                   <p>
-                    The Card template is last updated on 21 May 2019. Read More button is linked to second page. You can try it now. External link button is added on main menu.
-                  </p>
-                  <p class="mb-0">
-                    Please tell your friends about Tooplate for free templates. This is 70% alpha background.
-                  </p>
+                    Experienced Project Manager and Product Owner with a strong background in data analysis, process optimization, and stakeholder collaboration. Passionate about innovation, problem-solving, and driving efficiency through technology. Skilled in Tableau, PowerBI, SQL, and Agile methodologies. Dedicated to continuous improvement and delivering impactful business solutions.
                 </div>
                 <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Read More</a>
               </section>
@@ -96,13 +92,9 @@ http://www.tooplate.com/view/2109-the-card
                 <div class="tm-textbox tm-textbox-2 tm-bg-dark">
                   <h2 class="tm-text-blue mb-4">About Me</h2>
                   <p class="mb-4">
-                    You are allowed to modify and use this HTML template for
-                    your personal or business websites.
+                    Passionate about human interactions, learning, and new experiences, I thrive on challenges that create meaningful impact. I excel in planning, problem-solving, and strategic decision-making while embracing flexibility. With strong leadership and communication skills, I prioritize collaboration and people-first solutions. Driven by honesty, respect, and growth, I seek opportunities in project management, agile, and data analysis.
                   </p>
-                  <p class="mb-4">
-                    You are NOT allowed to re-distribute this template file on
-                    your site for any reason. Thank you.
-                  </p>
+              
                   <a
                     href="#"
                     id="tm_work_link"
@@ -116,17 +108,16 @@ http://www.tooplate.com/view/2109-the-card
               <!-- Section 2 Work (Gallery) -->
               <section class="tm-section tm-section-2 mx-auto">
                 <div class="grid tm-gallery">
-                  <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/01.jpg" alt="Image 1" class="" />
-                    <figcaption>
-                      <h2>
-                        Thoughtful
-                        <span>Goliath</span>
-                      </h2>
-                      <p>When Goliath comes out, you should run.</p>
-                      <a href="img/01.jpg">View more</a>
+                  <figure class="effect-goliath tm-gallery-item" style="position: relative;">
+                    <img src="img/01.jpg" alt="Image 1" />
+                    <figcaption >
+                        <h2>Thoughtful <span>Goliath</span></h2>
+                        <p class="clickable" onclick="toggleInfoBox('info-box-1', this)">Account Project Manager & Product Owner</p>
                     </figcaption>
-                  </figure>
+                </figure>
+                <div id="info-box-1" class="info-box">
+                    <p>This is additional information for Image 1.</p>
+                </div>
                   <figure class="effect-goliath tm-gallery-item">
                     <img src="img/02.jpg" alt="Pretty Girl" class="" />
                     <figcaption>
@@ -252,44 +243,19 @@ http://www.tooplate.com/view/2109-the-card
               </section>
 
               <!-- Section 3 Contact -->
-              <section class="tm-section tm-section-3 tm-section-left">
-                <form action="" class="tm-contact-form" method="post">
+              <section class="tm-section tm-section-3 tm-section-left tm-bg-dark">
                   <div class="form-group mb-4">
-                    <input
-                      type="text"
-                      id="contact_name"
-                      name="contact_name"
-                      class="form-control"
-                      placeholder="Name"
-                      required
-                    />
+                    <h2 class="tm-section-title mb-3 font-weight-bold ">
+                      Let's Connect!
+                    </h2>
+                    <div class="w3-container w3-padding-large ">
+                      <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+                        <div class="w3-full">
+                          <p><i class="fa fa-envelope w3-xxlarge"></i></p>
+                          <a href="mailto:beatrizdiazrz@gmail.com"">beatrizdiazrz@gmail.com</a>
+                        </div>
+                      </div>
                   </div>
-                  <div class="form-group mb-4">
-                    <input
-                      type="email"
-                      id="contact_email"
-                      name="contact_email"
-                      class="form-control"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                  <div class="form-group mb-4">
-                    <textarea
-                      rows="4"
-                      id="contact_message"
-                      name="contact_message"
-                      class="form-control"
-                      placeholder="Message"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="form-group mb-0">
-                    <button type="submit" class="btn tm-send-btn tm-fl-right">
-                      Send
-                    </button>
-                  </div>
-                </form>
               </section>
             </div>
           </div>
@@ -297,10 +263,6 @@ http://www.tooplate.com/view/2109-the-card
       </div>
 
       <div class="tm-bottom-container">
-        <!-- Barcode -->
-        <div class="tm-barcode-box">
-          <img src="img/bar-code.jpg" alt="Bar code" />
-        </div>
 
         <!-- Footer -->
         <footer>
@@ -316,6 +278,65 @@ http://www.tooplate.com/view/2109-the-card
     <script src="js/background.cycle.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
+    <style>
+      .tm-gallery {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+      }
+  
+      .effect-goliath {
+          display: inline-block;
+          text-align: center;
+      }
+  
+      .info-box {
+          display: none; /* Initially hidden */
+          position: absolute;
+          background: rgba(255, 255, 255, 0.95);
+          border: 1px solid #ccc;
+          padding: 10px;
+          width: 250px;
+          max-width: 90%;
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+          z-index: 1000;
+          font-family: Arial, sans-serif;
+          text-align: center;
+          top: 100%; /* Default positioning below image */
+          left: 50%;
+          transform: translateX(-50%);
+      }
+  
+      .clickable {
+          cursor: pointer;
+      }
+  </style>
+  
+  <!-- ✅ JavaScript for Dynamic Positioning -->
+  <script>
+      function toggleInfoBox(id, imgElement) {
+          var infoBox = document.getElementById(id);
+          var parentFigure = imgElement.closest('.effect-goliath');
+  
+          // Close other open textboxes
+          document.querySelectorAll('.info-box').forEach(box => {
+              if (box.id !== id) box.style.display = "none";
+          });
+  
+          // Toggle visibility
+          if (infoBox.style.display === "none" || infoBox.style.display === "") {
+              infoBox.style.display = "block";
+  
+              // Attach the box inside the parent figure to prevent layout issues
+              parentFigure.appendChild(infoBox);
+  
+              // Position the box below the image
+              infoBox.style.top = "100%";
+          } else {
+              infoBox.style.display = "none";
+          }
+      }
+  </script>
     <script>
       let slickInitDone = false;
       let previousImageId = 0,
